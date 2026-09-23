@@ -1,0 +1,66 @@
+# Byte-compiled / optimized / DLL configuration
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments (Never commit your dependencies/interpreter)
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Environment Variables & Secrets (CRITICAL for FastAPI apps)
+.env
+.env.*
+!.env.example
+secrets.json
+
+# FastAPI / Database specific
+*.db
+*.sqlite
+*.sqlite3
+openapi.json
+
+# Dependency managers (Optional: commit lock files if you deploy apps, ignore if preferred)
+# Pipfile.lock
+# poetry.lock
+# pdm.lock
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+nosetests.xml
+coverage.xml
+.htmlcov/
+
+# Type Checking & Linting
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.black
+
+# IDEs and Code Editors
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
